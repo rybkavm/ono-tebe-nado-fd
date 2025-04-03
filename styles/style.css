@@ -41,6 +41,7 @@
 .header__link_active,
 .footer__menu-link_active {
   border-bottom: none;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -92,11 +93,11 @@
 
 .cover__title {
   margin-bottom: 106px;
-  font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 100px;
   line-height: 1.15;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .letter-spacing-extended {
@@ -135,17 +136,8 @@
   text-transform: uppercase;
 }
 
-.subline-start {
-  word-spacing: 19px;
-}
-
-.subline-v {
-  word-spacing: 13px;
-  white-space: pre;
-}
-
-.subline-end {
-  word-spacing: 18px;
+.cover__description-text {
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -212,7 +204,6 @@
 }
 
 .card__text,
-.about__text,
 .card__title {
   line-height: 1.2;
 }
@@ -270,7 +261,8 @@
 }
 
 .about__title {
-  margin: 136px 0 100px;
+  margin-top: 136px;
+  margin-bottom: 98px;
 }
 
 .about__paragraph {
@@ -282,7 +274,6 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: start;
-  margin-bottom: 84px;
   padding: 0 50px;
 }
 
